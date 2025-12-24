@@ -3,7 +3,7 @@
 
 This project simulates a Security Operations Center (SOC) use case by detecting potential brute force attacks through authentication log analysis. The script parses Linux-style SSH logs, extracts source IP addresses using regular expressions, and correlates repeated failed login attempts to generate alerts based on a defined threshold.
 
-#Key Objectives
+# Key Objectives
 
 -Simulate real-world SOC alert logic
 
