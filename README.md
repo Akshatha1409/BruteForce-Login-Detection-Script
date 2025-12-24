@@ -1,9 +1,9 @@
-## Brute Force Login Detection - SOC Simulation
+# Brute Force Login Detection - SOC Simulation
 ## Description
 
 This project simulates a Security Operations Center (SOC) use case by detecting potential brute force attacks through authentication log analysis. The script parses Linux-style SSH logs, extracts source IP addresses using regular expressions, and correlates repeated failed login attempts to generate alerts based on a defined threshold.
 
-# Key Objectives
+## Key Objectives
 
 -Simulate real-world SOC alert logic
 
@@ -11,7 +11,7 @@ This project simulates a Security Operations Center (SOC) use case by detecting 
 
 -Demonstrate log parsing and event correlation
 
-##How It Works
+## How It Works
 
 -Processes simulated SSH authentication logs (auth.log)
 
@@ -21,7 +21,7 @@ This project simulates a Security Operations Center (SOC) use case by detecting 
 
 -Triggers alerts when activity exceeds a brute-force threshold
 
-##SOC & Security Concepts Demonstrated
+## SOC & Security Concepts Demonstrated
 
 -Log analysis and alert triage
 
@@ -31,11 +31,11 @@ This project simulates a Security Operations Center (SOC) use case by detecting 
 
 -Secure handling of simulated log data
 
-##MITRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 
 T1110 – Brute Force
 
-##Technologies Used
+## Technologies Used
 
 -Python
 
