@@ -5,31 +5,31 @@ This project simulates a Security Operations Center (SOC) use case by detecting 
 
 ## Key Objectives
 
--Simulate real-world SOC alert logic
+-Simulate real-world SOC alert logic.
 
--Identify suspicious authentication behavior
+-Identify suspicious authentication behavior.
 
--Demonstrate log parsing and event correlation
+-Demonstrate log parsing and event correlation.
 
 ## How It Works
 
--Processes simulated SSH authentication logs (auth.log)
+-Processes simulated SSH authentication logs (auth.log).
 
--Uses regex to extract IP addresses from failed login events
+-Uses regex to extract IP addresses from failed login events.
 
--Counts repeated failures per IP using efficient data structures
+-Counts repeated failures per IP using efficient data structures.
 
--Triggers alerts when activity exceeds a brute-force threshold
+-Triggers alerts when activity exceeds a brute-force threshold.
 
-## SOC & Security Concepts Demonstrated
+## SOC & Security Concepts 
 
--Log analysis and alert triage
+-Log analysis and alert triage.
 
--Brute force attack detection
+-Brute force attack detection.
 
--Event correlation and threshold-based alerting
+-Event correlation and threshold-based alerting.
 
--Secure handling of simulated log data
+-Secure handling of simulated log data. 
 
 ## MITRE ATT&CK Mapping
 
