@@ -7,7 +7,7 @@ This project simulates a Security Operations Center (SOC) use case by detecting 
 
 -Simulate real-world SOC alert logic.
 
--Identify suspicious authentication behavior.
+-Identify suspicious authentication behaviour.
 
 -Demonstrate log parsing and event correlation.
 
